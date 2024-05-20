@@ -23,8 +23,8 @@ fun main() {
             install(Logging) { level = LogLevel.INFO }
         }
 
-        client.get("http://localhost:8080/index")
-        client.get("http://localhost:8080/index")
+        client.get("https://picsum.photos/seed/1/500/500")
+        client.get("https://picsum.photos/seed/1/500/500")
         client.close()
     }
 }
